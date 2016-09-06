@@ -2,12 +2,20 @@
 .top5 { margin-top:5%; }
 .top7 { margin-top:7%; }
 .top10 { margin-top:10%; }
+.top13 { margin-top:13%; }
+.top14 { margin-top:14%; }
 .top15 { margin-top:15%; }
 .top17 { margin-top:17%; }
+.top20 {margin-top: 20%; }
+.top25 {margin-top: 25%; }
 .top30 { margin-top:30%; }
 .top40 { margin-top:40%; }
 .top50 { margin-top:50%; }
 a,h1,h2,h3,h4,h5,h6,p,input
 {
     font-family: "DroidSans";
+}
+.logo-img
+{
+height:80px;
 }
