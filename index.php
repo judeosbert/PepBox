@@ -17,12 +17,11 @@
     <script src="assets/js/bootstrap.min.js" ></script>
 </head>
 <body>
-<div class="container full-length">
+<div class="container ">
     <div class="row">
-        <div class="col-lg-6 text-lg-center  ">
+        <div class="col-lg-6 text-lg-center">
             <div class="logo-signup top40">
             <p> <img class="logo-img" src="assets/images/company_logo.png" /> </p>
-                <p><button class="btn btn-primary" title="Signup to PepBox">New to GitHub?</button> </p>
 
             </div>
 
@@ -34,8 +33,14 @@
                 <form id="login-form">
                     <input type="email" class="form-control rounded-input" placeholder="Email ID" />
                     <input type="password" class=" top5 form-control rounded-input" placeholder="Password" />
-                    <p><button class=" top7 btn btn-primary" title="Signup to PepBox">Log in</button> </p>
-                    <a href="#">Forgot Password</a>
+                    <p>
+                        <ul class="list-inline">
+                        <li class="list-inline-item"><button class=" top7 btn btn-primary" title="Signup to PepBox">Log in</button></li>
+                        <li class="list-inline-item"><button class="btn btn-primary" title="Signup to PepBox">New to GitHub?</button></li>
+                    </ul>
+                    </p>
+
+                    <a href="#" class="btn btn-link">Forgot Password</a>
                 </form>
                 </div>
 
@@ -43,9 +48,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="footer">
-            asdas
-        </div>
+
     </div>
 </div>
 </body>
