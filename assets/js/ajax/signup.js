@@ -50,6 +50,7 @@ $(document).ready(function()
                 }
                 else
                 {
+
                     $("#error-msg").text("An error has occured. Please try again");
                     $(".btn").text("Sign Up");
                 }
