@@ -20,21 +20,22 @@
 <body>
 <div class="container ">
     <div class="row">
-        <div class="col-lg-12">
-            <img class="logo-img" src="assets/images/company_logo.png" />
+        <div class="col-lg-12 col-sm-12 text-sm-center text-lg-left text-md-center">
+            <p><img class="logo-img" src="assets/images/company_logo.png" /></p>
         </div>
     </div>
-    <div class="row">
+    <div class="row " style="background: #c0c0c0;">
 
-        <div class="col-lg-8 text-lg-center">
-            <div class="signup-text top14">
+        <div class="col-lg-8 col-sm-12 text-lg-center text-md-center text-sm-center">
+            <div class="signup-text top11">
+                <br />
             <h1 class="text-lg-left promote-head">How People Build Software</h1>
                 <p class="text-lg-left promote-text" >Millions of developers use GitHub to build personal projects, support their businesses, and work together on open source technologies</p>
-                <button class="btn btn-primary" title="Signup to PepBox">New to GitHub?</button>
+                <p><button class="btn btn-primary" title="Signup to PepBox">New to GitHub?</button></p>
             </div>
 
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 col-sm-12  " style="background: white">
             <div class="login-form top30 text-lg-center">
                 <h1>Welcome!</h1>
                 <div class="form-elements top7">
@@ -53,9 +54,14 @@
                 </div>
 
             </div>
+            <div class="col-lg-12 top15">
         </div>
+        <div class="col-lg-12 top34">
     </div>
-    <div class="row">
+
+
+
+
 
     </div>
 </div>
