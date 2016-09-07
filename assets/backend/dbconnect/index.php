@@ -8,4 +8,26 @@
 $host = "localhost";
 $user = "root";
 $pass = "root";
-$db = "";
+$db = "pepbox";
+
+/*****************************CONFIG SECTION************************************************* /
+ */error_reporting(1);                                                                      /*
+ */                                                                                         /*
+ */                                                                                         /*
+ */                                                                                         /*
+ */                                                                                         /*
+ */                                                                                         /*
+ */                                                                                          /*
+ */                                                                                         /*
+ */                                                                                          /*
+ * ******************************************************************************************/
+
+$conn = new mysqli($host,$user,$pass,$db);
+{
+if($conn->connect_error)
+{
+    echo "Error in Connection";
+    exit();
+}
+session_start();
+}

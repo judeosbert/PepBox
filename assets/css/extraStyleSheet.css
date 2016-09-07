@@ -121,3 +121,10 @@ height:80px;
     position: absolute;
     height: 100%;
 }
+.text20
+{
+    font-size:20px;
+}
+#error-msg{
+    color:darkred;
+}
