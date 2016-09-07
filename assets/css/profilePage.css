@@ -1,0 +1,33 @@
+.profile-sidebar
+{
+    background-color: whitesmoke;
+    height:100%;
+
+    left:0;
+    top:0;
+    bottom:0;
+}
+.profile-image
+{
+    height:150px;
+}
+.user-full-name
+{
+    /*font-weight: bold;*/
+}
+.profile-head
+{
+    /*background:#68222D;*/
+    color:#fff;
+    background: url(../images/sampleCoverPic.jpeg)no-repeat center center fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+.profile-main-header
+{
+    height:60px;
+    background: #2aabd2;
+    box-shadow: 0px 0px 3px 3px rgba(0,0,0,0.2);
+}

@@ -1,17 +1,130 @@
 @import "../fonts/site-fonts.css";
-.top5 { margin-top:5%; }
-.top7 { margin-top:7%; }
-.top10 { margin-top:10%; }
-.top15 { margin-top:15%; }
-.top17 { margin-top:17%; }
-.top30 { margin-top:30%; }
-.top40 { margin-top:40%; }
-.top50 { margin-top:50%; }
+.top1{ margin-top:1%; }
+.top2{ margin-top:2%; }
+.top3{ margin-top:3%; }
+.top4{ margin-top:4%; }
+.top5{ margin-top:5%; }
+.top6{ margin-top:6%; }
+.top7{ margin-top:7%; }
+.top8{ margin-top:8%; }
+.top9{ margin-top:9%; }
+.top10{ margin-top:10%; }
+.top11{ margin-top:11%; }
+.top12{ margin-top:12%; }
+.top13{ margin-top:13%; }
+.top14{ margin-top:14%; }
+.top15{ margin-top:15%; }
+.top16{ margin-top:16%; }
+.top17{ margin-top:17%; }
+.top18{ margin-top:18%; }
+.top19{ margin-top:19%; }
+.top20{ margin-top:20%; }
+.top21{ margin-top:21%; }
+.top22{ margin-top:22%; }
+.top23{ margin-top:23%; }
+.top24{ margin-top:24%; }
+.top25{ margin-top:25%; }
+.top26{ margin-top:26%; }
+.top27{ margin-top:27%; }
+.top28{ margin-top:28%; }
+.top29{ margin-top:29%; }
+.top30{ margin-top:30%; }
+.top31{ margin-top:31%; }
+.top32{ margin-top:32%; }
+.top33{ margin-top:33%; }
+.top34{ margin-top:34%; }
+.top35{ margin-top:35%; }
+.top36{ margin-top:36%; }
+.top37{ margin-top:37%; }
+.top38{ margin-top:38%; }
+.top39{ margin-top:39%; }
+.top40{ margin-top:40%; }
+.top41{ margin-top:41%; }
+.top42{ margin-top:42%; }
+.top43{ margin-top:43%; }
+.top44{ margin-top:44%; }
+.top45{ margin-top:45%; }
+.top46{ margin-top:46%; }
+.top47{ margin-top:47%; }
+.top48{ margin-top:48%; }
+.top49{ margin-top:49%; }
+.top50{ margin-top:50%; }
+.top51{ margin-top:51%; }
+.top52{ margin-top:52%; }
+.top53{ margin-top:53%; }
+.top54{ margin-top:54%; }
+.top55{ margin-top:55%; }
+.top56{ margin-top:56%; }
+.top57{ margin-top:57%; }
+.top58{ margin-top:58%; }
+.top59{ margin-top:59%; }
+.top60{ margin-top:60%; }
+.top61{ margin-top:61%; }
+.top62{ margin-top:62%; }
+.top63{ margin-top:63%; }
+.top64{ margin-top:64%; }
+.top65{ margin-top:65%; }
+.top66{ margin-top:66%; }
+.top67{ margin-top:67%; }
+.top68{ margin-top:68%; }
+.top69{ margin-top:69%; }
+.top70{ margin-top:70%; }
+.top71{ margin-top:71%; }
+.top72{ margin-top:72%; }
+.top73{ margin-top:73%; }
+.top74{ margin-top:74%; }
+.top75{ margin-top:75%; }
+.top76{ margin-top:76%; }
+.top77{ margin-top:77%; }
+.top78{ margin-top:78%; }
+.top79{ margin-top:79%; }
+.top80{ margin-top:80%; }
+.top81{ margin-top:81%; }
+.top82{ margin-top:82%; }
+.top83{ margin-top:83%; }
+.top84{ margin-top:84%; }
+.top85{ margin-top:85%; }
+.top86{ margin-top:86%; }
+.top87{ margin-top:87%; }
+.top88{ margin-top:88%; }
+.top89{ margin-top:89%; }
+.top90{ margin-top:90%; }
+.top91{ margin-top:91%; }
+.top92{ margin-top:92%; }
+.top93{ margin-top:93%; }
+.top94{ margin-top:94%; }
+.top95{ margin-top:95%; }
+.top96{ margin-top:96%; }
+.top97{ margin-top:97%; }
+.top98{ margin-top:98%; }
+.top99{ margin-top:99%; }
+.top100{ margin-top:100%; }
+
 a,h1,h2,h3,h4,h5,h6,p,input
 {
     font-family: "DroidSans";
 }
-.full-length
+.logo-img
 {
+height:80px;
+
+}
+.overlay
+{
+
     height:100%;
+    width:100%;
+    background: rgba(0,0,0,0.5);
+}
+.full-height
+{
+    position: absolute;
+    height: 100%;
+}
+.text20
+{
+    font-size:20px;
+}
+#error-msg{
+    color:darkred;
 }
