@@ -10,16 +10,21 @@
     <script src="../assets/js/bootstrap.min.js" ></script>
     <script src="../assets/js/ajax/signup.js"></script>
 </head>
-<body class="bg_img">
+<body  >
     <div class="container-fluid">
         <div class="row ">
-            <div class="col-lg-6 text-lg-center top17 ">
-           
-                <p ><img src="../assets/images/company_logo.png"></p>
-              
+            <div class="overlay">
+            <div class="col-lg-6 text-lg-center  col-sm-12 text-sm-center bg_img">
+
+                <div class="top35 ">
+                <p ><img style="height:150px;" src="../assets/images/pepbox_white.png"></p>
+                </div>
+                <div class="top43"></div>
+
+            </div>
             </div>
         
-            <div class="col-lg-6 signup-form">
+            <div class="col-lg-6 col-sm-12 text-sm-center signup-form">
                 <h2 class="top25">Create your Account</h2>
                 <form id="signup_form">
                     <p id="error-msg"></p>
@@ -35,9 +40,13 @@
 
                     <div class="text-lg-center">   
                     <button class="btn btn-primary top7" type="submit">Signup</button>
+                            <br /><br />
+                        <a href="../"> <button class="btn btn-outline-primary btn-sm">Already on PepBox? Sign In</button></a>
                     </div>                
                 </form>
+                <div class="col-lg-12 top12">
             </div>
+
         </div>
     </div>
 </body>

@@ -36,11 +36,11 @@ $(document).ready(function()
                 var status = jsonData.status;
                 if(status == 1)
                 {
-                    location.replace("/profile");
+                    location.replace("../");
                 }
                 else if(status == 2)
                 {
-                    $("#error-msg").html("The Email is already takennbsp;&<a href='../'>Login</a>");
+                    $("#error-msg").html("The Email is already taken&nbsp;<a href='../'>Login</a>");
                     $(".btn").text("Sign Up");
                 }
                 else if(status == 3)
