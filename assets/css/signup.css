@@ -7,14 +7,15 @@
 {
     padding-right:10%;
     background: white;
+    padding-left: 7%;
 }
 
 .bg_img
 {
-    background:url(../images/Vector.jpg);
-  /*  background-size:cover;
+    background:url(../images/signUpBg.jpg)no-repeat center center fixed;
+   background-size:cover;
     -moz-background-size:cover;
     -webkit-background-size:cover;
     -o-background-size:cover;
-*/
+
 }
