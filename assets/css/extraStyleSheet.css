@@ -102,6 +102,7 @@
 a,h1,h2,h3,h4,h5,h6,p,input
 {
     font-family: "DroidSans";
+    text-decoration: none !important;
 }
 .logo-img
 {
@@ -117,13 +118,75 @@ height:80px;
 }
 .full-height
 {
+   height:100%;
+    overflow: auto;
     position: absolute;
-    height: 100%;
+    bottom:0;
+    left:0;
 }
 .text20
 {
     font-size:20px;
 }
 #error-msg{
-    color:darkred;
+    color:darkred !important;
+}
+.small-logo
+{
+    height:50px;
+}
+.tile-img
+{
+    height:60px !important;
+}
+.subheading
+
+{
+    background-color: #a1a1a1;
+
+}
+.list-group,.list-group-item
+
+{
+    border:0px !important;
+
+
+}
+
+.no-border
+{
+    border:0px !important;
+}
+.content-list li
+{
+    padding-bottom: 2px !important;
+    padding-top: 2px !important;
+
+}
+.top-nav-bar
+{
+    background:#fff;
+    left:0;
+    right:0;
+}
+.box-shadow
+{
+    box-shadow: 0px 0px 3px 3px rgba(0,0,0,0.1);
+}
+.sidebar
+
+{
+    background-color: whitesmoke;
+}
+.profile-tab
+{
+    background: #fff;
+    width:250px;
+    height:300px;
+
+    overflow: hidden;
+}
+.profile-tab img
+{
+    height:100px;
 }

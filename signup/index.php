@@ -1,4 +1,14 @@
-<!doctype html>
+<?php
+require ("../assets/backend/dbconnect/index.php");
+
+if($_SESSION["loggedIn"])
+{
+    echo "Logged iN"; //Change to root
+}
+
+?>
+
+<!Doctype html>
 <html>
 <head>
     <title>Pepbox Signup</title>
@@ -39,9 +49,9 @@
                     <input required type="password" class="form-control top3" id="userPasswordConf" placeholder="Confirm Password" />
 
                     <div class="text-lg-center">   
-                    <button class="btn btn-primary top7" type="submit">Signup</button>
+                    <button class="btn btn-primary top7" id="submit-button" type="submit">Signup</button>
                             <br /><br />
-                        <a href="../"> <button class="btn btn-outline-primary btn-sm">Already on PepBox? Sign In</button></a>
+                        <a href="../"> <button type="button" class="btn btn-outline-primary btn-sm">Already on PepBox? Sign In</button></a>
                     </div>                
                 </form>
                 <div class="col-lg-12 top12">

@@ -31,17 +31,20 @@ if($_SESSION["loggedIn"])
             <p><img style="margin-left: -50px;" class=" top1 logo-img" src="assets/images/pepbox_black.png" /></p>
         </div>
     </div>
-    <div class="row " style="background: #c0c0c0;margin-top: -20px;">
+    <div class="row " style="margin-top: -20px;">
 
-        <div class="col-lg-8 col-sm-12 text-lg-center text-md-center text-sm-center">
-            <div class="signup-text top11">
+        <div class="col-lg-8 col-sm-12 text-lg-center text-md-center text-sm-center" style="margin-top: -20px;background:url(assets/images/singinPage.jpg)no-repeat center center fixed;background-size: contain;">
+
+            <div class="signup-text top11" style="color:white">
                 <br />
-            <h1 class="text-lg-left promote-head">How People Build Software</h1>
-                <p class="text-lg-left promote-text" >Millions of developers use GitHub to build personal projects, support their businesses, and work together on open source technologies</p>
-                <a href="signup/"><button class="btn btn-primary" title="Signup to PepBox">New to GitHub?</button></a>
+            <h1 class="text-lg-left promote-head">Connecting students and teachers</h1>
+                <p class="text-lg-left promote-text" >An integrated platform for student and teachers to build personal projects, get guidance, exchange ideas and work together.</p>
+                <a href="signup/"><button class="btn btn-primary" title="Signup to PepBox">New to Pepbox?</button></a>
             </div>
 
+            <div class="top28"></div>
         </div>
+
         <div class="col-lg-4 col-sm-12  " style="background: white;margin-top: -20px;">
             <div class="login-form top30 text-lg-center">
                 <h1>Welcome!</h1>
@@ -57,7 +60,7 @@ if($_SESSION["loggedIn"])
                     </ul>
                     </p>
 
-                    <a href="#" class="btn btn-link">Forgot Password</a>
+                    <a href="help/password/index.php" class="btn btn-link">Forgot Password</a>
                 </form>
                 </div>
 

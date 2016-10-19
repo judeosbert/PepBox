@@ -25,7 +25,8 @@ if(password_verify($password,$userPasswordHash))
     $_SESSION["userFullName"] = $userFullName;
     $_SESSION["userLevel"] = $userLevel;
     $results+=["status"=>1]; //Success
-
+    $_SESSION["userLastPostID"] = 0;
+    $_SESSION["groupLastPostID"] = 0;
 }
 else{
     $results+=["status" => 0]; //Fail

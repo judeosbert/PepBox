@@ -22,7 +22,7 @@ $(document).ready(function()
         return;
     }
     //Sending data to ajax
-        $(".btn").text("Signing up");
+        $("#submit-button").text("Signing up");
         $.ajax({
            method:"post",
             url:"../assets/backend/signup/index.php",
@@ -41,23 +41,23 @@ $(document).ready(function()
                 else if(status == 2)
                 {
                     $("#error-msg").html("The Email is already taken&nbsp;<a href='../'>Login</a>");
-                    $(".btn").text("Sign Up");
+                    $("#submit-button").text("Sign Up");
                 }
                 else if(status == 3)
                 {
                     $("#error-msg").text("Your college is not registered with us.");
-                    $(".btn").text("Sign Up");
+                    $("#submit-button").text("Sign Up");
                 }
                 else
                 {
 
                     $("#error-msg").text("An error has occured. Please try again");
-                    $(".btn").text("Sign Up");
+                    $("#submit-button").text("Sign Up");
                 }
             },
             error:function()
             {
-                $(".btn").text("Try Again");
+                $("#submit-button").text("Try Again");
                 alert("Failed");
             }
         });

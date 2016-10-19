@@ -1,0 +1,24 @@
+#dashboard-userFName
+{
+    text-decoration: none !important;
+    color:#000;
+}
+#dashboard-getUserForum,#dashboard-getUserGroups
+{
+    cursor: pointer;
+}
+.little-text{
+    font-size: 14px;
+}
+.maincontent-area
+{
+    background: #fff;
+}
+.user-post
+{
+    top:2%;
+}
+.card-content
+{
+    padding:1%;
+}

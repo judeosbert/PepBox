@@ -22,7 +22,7 @@ $parts = explode("@",$email);
 $domain = $parts[1];
 
 $domainId = 0;
-$query = "SELECT academicId FROM academicDomains WHERE academicDomain LIKE ?";
+$query = "SELECT academicId FROM academicdomains WHERE academicDomain LIKE ?";
 $check = $conn->prepare($query);
 $check->bind_param("s",$domain);
 $check->execute();
@@ -58,15 +58,6 @@ if($count > 0)
 }
 
 
-
-
-
-
-
-
-
-
-
 $query = "INSERT INTO users (userFullName,userPassword,userAccountCreatedTime,userLevel,userEmail,collegeId) VALUES(?,?,?,?,?,?)";
 if(strcmp($accountType,"student")==0)
 {
@@ -81,7 +72,8 @@ $create->bind_param("sssisi",$userFullName,$password_hash,date("Y:m:d H:i:s"),$a
 if($create->execute())
 {
     $results+=["status"=>1]; //Success
-    mail($email,"Welcome to PepBox","Welcome to PepBox.");
+    $create->close();
+    //mail($email,"Welcome to PepBox","Welcome to PepBox.");
 }
 else
 {
